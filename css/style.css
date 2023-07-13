@@ -5,7 +5,7 @@
 }
 
 body{
-  font-style: italic;
+  font-family: 'Fredoka', sans-serif;
   width: 50%;
   max-width: 100%;
   margin: 40px auto;
@@ -52,14 +52,18 @@ img{
 }
 
 .name{
+  text-transform: uppercase;
+  font-size: 15px;
   color: white;
 }
 
 .job{
+  font-size: 12px;
   color: white;
 }
 
 .mail{
+  font-size: 13px;
   color: #46BAF3;
 }
 
