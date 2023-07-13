@@ -43,8 +43,10 @@ img{
 }
 
 .right-card{
-  float: left;
+  float: right;
   line-height: 20px;
+  padding-top: 10px;
+  padding-right: 40px;
 }
 
 .name{
@@ -59,6 +61,6 @@ img{
   color: #46BAF3;
 }
 
-.mail:hover{
-  text-decoration: none;
+a{
+  text-decoration: none; 
 }
