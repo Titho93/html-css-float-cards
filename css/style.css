@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-style: italic;
+  width: 60%;
+  max-width: 100%;
+  margin: 40px auto;
+}
+
+/* header */
+
+header{
+  text-align: center;
+}
+
+h1{
+  color: #E64970;
+}
+
+.description{
+  margin-top: 30px;
+}
+
+/* main */
+
+main{
+  margin-top: 40px;
+}
+
+.card{
+  width: 300px;
+  height: 80px;
+  background-color: black;
+}
+
+img{
+  width: 80px;
+  height: 80px;
+}
+
+.right-card{
+  float: left;
+  line-height: 20px;
+}
+
+.name{
+  color: white;
+}
+
+.job{
+  color: white;
+}
+
+.mail{
+  color: #46BAF3;
+}
+
+.mail:hover{
+  text-decoration: none;
+}
