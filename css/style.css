@@ -4,16 +4,23 @@
   box-sizing: border-box;
 }
 
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
 body{
   font-family: 'Fredoka', sans-serif;
-  width: 50%;
-  max-width: 100%;
-  margin: 40px auto;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* header */
 
 header{
+  padding-top: 40px;
   text-align: center;
 }
 
@@ -28,45 +35,50 @@ h1{
 /* main */
 
 main{
-  margin-top: 40px;
+  padding-top: 40px;
+}  
+
+.space{
+  float: left;
+  width: calc(100% / 3);
+  padding: 20px;
+  min-width: 350px;
 }
 
 .card{
-  float: left;
-  margin: 20px 10px;
-  width: 300px;
-  height: 80px;
   background-color: black;
+  color: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, .7);
 }
 
 img{
   float: left;
-  width: 80px;
-  height: 80px;
+  width: 100px;
 }
 
 .right-card{  
-  line-height: 20px;
-  margin-left: 90px;
-  padding-top: 10px;
+  float: left;
+  padding: 10px 15px;
 }
 
 .name{
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 18px;
   color: white;
+  margin-bottom: 5px;
 }
 
 .job{
-  font-size: 12px;
+  font-size: 15px;
   color: white;
+  margin-bottom: 5px;
 }
 
 .mail{
-  font-size: 13px;
+  font-size: 16px;
   color: #46BAF3;
 }
 
 a{
-  text-decoration: none; 
+  text-decoration: none;
 }
